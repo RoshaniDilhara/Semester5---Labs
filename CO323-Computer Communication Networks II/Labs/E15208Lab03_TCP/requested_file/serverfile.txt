@@ -1,0 +1,28 @@
+Pointers, References and Dynamic Memory Allocation are the most powerful features in C/C++ language,
+which allows programmers to directly manipulate memory to efficiently manage the memory - the most
+critical and scarce resource in computer - for best performance. However, "pointer" is also the most complex
+and difficult feature in C/C++ language.
+Pointers are extremely powerful because they allows you to access addresses and manipulate their
+contents. But they are also complex to handle. Using them correctly, they could greatly improve the
+efficiency and performance. On the other hand, using them incorrectly could lead to many problems, from
+un-readable and un-maintainable codes, to infamous bugs such as memory leaks and buffer overflow,
+which may expose your system to hacking. Many new languages (such as Java and C#) remove pointer from
+their syntax to avoid the pitfalls of pointers, by providing automatic memory management.
+Although you can write C/C++ programs without using pointers, however, it is difficult not to mention
+pointer in teaching C/C++ language
+
+
+A computer memory location has an address and holds a content. The address is a numerical number (often
+expressed in hexadecimal), which is hard for programmers to use directly. Typically, each address location
+holds 8-bit (i.e., 1-byte) of data. It is entirely up to the programmer to interpret the meaning of the data,
+such as integer, real number, characters or strings.
+To ease the burden of programming using numerical address and programmer-interpreted data, early
+programming languages (such as C) introduce the concept of variables. A variable is a named location that
+can store a value of a particular type. Instead of numerical addresses, names (or identifiers) are attached to
+certain addresses. Also, types (such as int, double, char) are associated with the contents for ease of
+interpretation of data.
+Each address location typically hold 8-bit (i.e., 1-byte) of data. A 4-byte int value occupies 4 memory
+locations. A 32-bit system typically uses 32-bit addresses. To store a 32-bit address, 4 memory locations are
+required.
+The following diagram illustrates the relationship between computers' memory address and content; and
+variable's name, type and value used by the programmers.
